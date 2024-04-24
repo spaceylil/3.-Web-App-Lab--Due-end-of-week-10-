@@ -1,0 +1,6 @@
+Item_Title,Transaction_Type,Item_Amount,Date
+lemons,expense,-50.0,03-03-2024
+sugar,expense,-10.0,03-04-2024
+straws,expense,-5.0,09-03-2024
+sale,income,21.0,11-03-2024
+electricity,expense,-20.0,2024-03-03 00:00:00

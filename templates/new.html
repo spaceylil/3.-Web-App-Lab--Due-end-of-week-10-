@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP</title>
+</head>
+<body>
+<form action="/new" method = "POST">
+    <p>Title <input type = "text" name = "Title" /></p>
+    <p>
+        Transaction_Type
+        <select name = "Transaction_Type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select>
+    </p>
+    <p>Amount <input type = "text" name = "Amount" /></p>
+    <p>Date <input type = "datetime" name = "Date" /></p>
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
+</body>    
+</html>

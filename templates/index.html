@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JP</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <h1>JP's lemonade budget tracker</h1>
+    <!-- Loop through the items and provide details here -->
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Amount</th>        
+        </tr>
+        {% for item in items %}
+        <tr>
+            <td><a href="/show/{{item.id}}">{{item.Item_Title}}</a></td>
+            <td id="amount">{{item.Item_Amount}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+<p id="new">
+    <a href="/new">Press here to add new items</a>
+</p>
+</body>
+</html>

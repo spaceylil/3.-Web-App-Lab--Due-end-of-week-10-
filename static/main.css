@@ -1,0 +1,43 @@
+h1 {
+    color: rgba(37, 36, 27, 0.827);
+    text-align: center;
+    font-family:fantasy ;
+    font-size:xx-large;
+}
+body {
+    background-image: url("/static/lemons4.avif"), url("/static/lemons4.avif"), url("/static/lightgrey.jpeg");
+    background-repeat:repeat-y,repeat-y, repeat-y;
+    background-position-x: left, right, center;
+    background-size: 30%, 30%, 40%;
+}
+table {
+      margin-left: auto;
+      margin-right: auto;
+      font-size:x-large;
+      font-family: sans-serif;
+      color:rgb(80, 68, 34)
+}
+#new {
+    text-align: center;
+    font-size: large;
+}
+#return {
+    text-align: center;
+    font-size: large;
+}
+#header {
+    text-align: center;
+    font-size: large;
+    color:rgb(59, 59, 23)
+    
+}
+#detail {
+    text-align: center;
+    font-size: large;
+    color:rgb(66, 112, 139)
+    
+}
+
+#amount {
+    text-align: right;
+}
